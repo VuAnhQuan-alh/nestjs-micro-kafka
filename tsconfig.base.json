@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nest-nx/shared": ["libs/shared/src/index.ts"],
+      "@nest-nx/shared/dto": ["libs/shared/src/lib/dto/index.ts"],
+      "@nest-nx/shared/entities": ["libs/shared/src/lib/entities/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
