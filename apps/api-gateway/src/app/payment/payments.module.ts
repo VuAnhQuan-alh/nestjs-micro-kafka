@@ -12,7 +12,7 @@ import { PaymentService } from './payments.service';
         options: {
           client: {
             clientId: 'payment',
-            brokers: ['localhost:9092'],
+            brokers: ['localhost:29092'],
           },
           producerOnlyMode: true,
           consumer: {

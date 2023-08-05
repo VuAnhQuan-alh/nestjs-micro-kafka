@@ -7,7 +7,8 @@
     "auth:dev": "nx serve auth-microservice",
     "payment:dev": "nx serve payments-microservie",
     "start:all": "nx run-many --target=serve --all",
-    "build:all": "nx run-many --target=build --all"
+    "build:all": "nx run-many --target=build --all",
+    "docker": "docker-compose up -d"
   },
   "private": true,
   "dependencies": {
